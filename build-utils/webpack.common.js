@@ -31,7 +31,9 @@ module.exports = {
     clean: true,
   },
   devServer: {
-    static: path.resolve(__dirname, '..', './dist'),
+    static: path.resolve(__dirname, '..', './src'),
+    hot: true,
+    open: true,
   },
   plugins: [
     new ESLintPlugin(),

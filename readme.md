@@ -99,7 +99,7 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
-    static: path.resolve(__dirname, './dist'),
+    static: path.resolve(__dirname, './src'),
   },
   plugins: [
     new CleanWebpackPlugin(),
