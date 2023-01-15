@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA;EACE,gBAAgB;EAChB,kBAAkB;AACpB,C","sources":["webpack://webpack5-template/./src/css/style.css"],"sourcesContent":["body {\n  background: #eee;\n  text-align: center;\n}"],"names":[],"sourceRoot":""}
