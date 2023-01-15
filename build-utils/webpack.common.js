@@ -33,7 +33,11 @@ module.exports = {
   devServer: {
     static: path.resolve(__dirname, '..', './src'),
     hot: true,
-    open: true,
+    open: {
+      app: {
+        name: 'Google Chrome',
+      },
+    },
   },
   plugins: [
     new ESLintPlugin(),
